@@ -1,0 +1,1 @@
+web: dotnet mvapp.dll

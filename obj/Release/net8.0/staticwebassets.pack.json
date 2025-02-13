@@ -1,0 +1,145 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\admin.html",
+      "PackagePath": "staticwebassets\\admin.html"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\admin.js",
+      "PackagePath": "staticwebassets\\admin.js"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\clientes.html",
+      "PackagePath": "staticwebassets\\clientes.html"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\clientes.js",
+      "PackagePath": "staticwebassets\\clientes.js"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\compras.html",
+      "PackagePath": "staticwebassets\\compras.html"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\compras.js",
+      "PackagePath": "staticwebassets\\compras.js"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\imgs\\MV CONSULT IMAGE copy.jpg",
+      "PackagePath": "staticwebassets\\imgs\\MV CONSULT IMAGE copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\imgs\\MV CONSULT IMAGE.jpg",
+      "PackagePath": "staticwebassets\\imgs\\MV CONSULT IMAGE.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\imgs\\consultoria.jpg",
+      "PackagePath": "staticwebassets\\imgs\\consultoria.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\imgs\\consultoria.svg",
+      "PackagePath": "staticwebassets\\imgs\\consultoria.svg"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\imgs\\fundo.jpg",
+      "PackagePath": "staticwebassets\\imgs\\fundo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\imgs\\icone-cobranca.png",
+      "PackagePath": "staticwebassets\\imgs\\icone-cobranca.png"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\imgs\\icone-cpf.png",
+      "PackagePath": "staticwebassets\\imgs\\icone-cpf.png"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\imgs\\icone-gestao.png",
+      "PackagePath": "staticwebassets\\imgs\\icone-gestao.png"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\imgs\\logo-mv-sem-fundo-verde.svg",
+      "PackagePath": "staticwebassets\\imgs\\logo-mv-sem-fundo-verde.svg"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\imgs\\logo-mv-sem-fundo.png",
+      "PackagePath": "staticwebassets\\imgs\\logo-mv-sem-fundo.png"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\imgs\\logo-mv-sem-fundo.svg",
+      "PackagePath": "staticwebassets\\imgs\\logo-mv-sem-fundo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\index.css",
+      "PackagePath": "staticwebassets\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\index.js",
+      "PackagePath": "staticwebassets\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\login.css",
+      "PackagePath": "staticwebassets\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\login.js",
+      "PackagePath": "staticwebassets\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\parcelas.html",
+      "PackagePath": "staticwebassets\\parcelas.html"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\parcelas.js",
+      "PackagePath": "staticwebassets\\parcelas.js"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\spa.css",
+      "PackagePath": "staticwebassets\\spa.css"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\spa.html",
+      "PackagePath": "staticwebassets\\spa.html"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\spa.js",
+      "PackagePath": "staticwebassets\\spa.js"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\styles.css",
+      "PackagePath": "staticwebassets\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\usuarios.html",
+      "PackagePath": "staticwebassets\\usuarios.html"
+    },
+    {
+      "Id": "C:\\Users\\Belshoff\\projects\\mvapp\\wwwroot\\usuarios.js",
+      "PackagePath": "staticwebassets\\usuarios.js"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.MVConsultoria.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.MVConsultoria.Web.props",
+      "PackagePath": "build\\MVConsultoria.Web.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MVConsultoria.Web.props",
+      "PackagePath": "buildMultiTargeting\\MVConsultoria.Web.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.MVConsultoria.Web.props",
+      "PackagePath": "buildTransitive\\MVConsultoria.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
