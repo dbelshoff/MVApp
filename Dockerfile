@@ -23,8 +23,10 @@ COPY --from=build /out .
 
 # Define a porta padrão da aplicação
 EXPOSE 8080
+ENV ASPNETCORE_URLS=http://+:8080
 
 # Comando de inicialização
 ENTRYPOINT ["dotnet", "MVConsultoria.Web.dll"]
+
 
 
