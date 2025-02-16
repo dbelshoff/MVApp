@@ -25,6 +25,9 @@ COPY --from=build /out .
 EXPOSE 8080
 ENV ASPNETCORE_URLS=http://+:8080
 
+# Executa as migrações antes de iniciar o aplicativo
+CMD ["sh", "-c", "dotnet ef database update && dotnet MVConsultoria.Web.dll"]
+
 # Comando de inicialização
 ENTRYPOINT ["dotnet", "MVConsultoria.Web.dll"]
 
