@@ -13,9 +13,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 // Configuração da conexão com o banco de dados MySQL
-builder.Services.AddDbContext<MVConsultoriaContext>(options =>
-    options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection")));
+//builder.Services.AddDbContext<MVConsultoriaContext>(options =>
+//  options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddDbContext<MVConsultoriaContext>(options =>
+    options.UseMySQL(builder.Configuration["MYSQL_URL"]));
 
 
 builder.Services.AddControllers()
