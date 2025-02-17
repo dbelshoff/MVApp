@@ -7,16 +7,30 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.OpenApi.Models;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
+/*
 
 // Configuração da conexão com o banco de dados MySQL
 builder.Services.AddDbContext<MVConsultoriaContext>(options =>
-options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection")));
+options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection")));*/
+
+//comentei o passo acima e refiz esse codigo abaixo para testar
+
+// Obtém a string de conexão da variável de ambiente ou do appsettings.json como fallback
+var connectionString = Environment.GetEnvironmentVariable("CONNECTION_STRING")
+                       ?? builder.Configuration.GetConnectionString("DefaultConnection");
+
+// Configuração da conexão com o banco de dados MySQL
+builder.Services.AddDbContext<MVConsultoriaContext>(options =>
+    options.UseMySQL(connectionString));
 
 
+//ate aqui
 
 builder.Services.AddControllers()
 .AddJsonOptions(options =>
