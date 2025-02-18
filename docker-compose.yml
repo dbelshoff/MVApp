@@ -6,7 +6,7 @@ services:
     depends_on:
       - db
     environment:
-      ConnectionStrings__DefaultConnection: "Server=db;Database=MVConsultoriaDB;User=root;Password=11534728;"
+      ConnectionStrings__DefaultConnection: "Server=db;Database=;User=root;Password=;"
 
   db:
     image: mysql:8.0
